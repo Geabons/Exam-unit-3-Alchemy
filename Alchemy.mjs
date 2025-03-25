@@ -38,6 +38,14 @@ const GAME_API = "https://alchemy-kd0l.onrender.com/";
 
     //#endregion
 
+    //TASK 2
+    //#region
+    const Riddle = "Still flows the Icy Lethe, Veiling all ’neath Eldritch Rime";
+    const riddleHiddenMeaning = Riddle.replace(/[^A-Z]/g, '');  
+    const task2Answer = riddleHiddenMeaning;
+    taskAnswers(task2Answer);
+    //#endregion
+
   } catch (error) {
     console.error("Error:", error);
   }
